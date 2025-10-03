@@ -1476,10 +1476,29 @@
 	border-radius: 30px;
 	border-radius: 30px 30px 0 30px;
 }
+/* Existing CSS (applies to all screens, especially 'in-between' sizes like tablets) */
 .pbmit-service-style-1 .pbmit-featured-wrapper img{
-	border-radius: 30px;
-	margin-bottom: 25px;
-	width: 100%;
+    border-radius: 30px;
+    margin-bottom: 25px;
+    width: 100%;
+}
+
+/* 1. Mobile Display (e.g., up to 767px) */
+@media only screen and (max-width: 767px) {
+    .pbmit-service-style-1 .pbmit-featured-wrapper img {
+        height: 350px;
+        /* Recommended: object-fit to prevent stretching */
+        object-fit: cover; 
+    }
+}
+
+/* 2. Desktop Display (e.g., 1024px and wider) */
+@media only screen and (min-width: 1024px) {
+    .pbmit-service-style-1 .pbmit-featured-wrapper img {
+        height: 350px;
+        /* Recommended: object-fit to prevent stretching */
+        object-fit: cover; 
+    }
 }
 .pbmit-service-style-1 .pbmit-box-content-inner{
 	padding: 0 10px;
