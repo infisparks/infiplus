@@ -2307,6 +2307,18 @@ body {
 	}
 }
 
+
+@media (max-width: 1024px) and (min-width: 992px){
+	.pbmit-column-four .pbmit-portfolio-style-5 .pbminfotech-box-content{
+		padding: 20px;
+	}
+	.pbmit-column-four .pbmit-portfolio-style-5 .pbmit-portfolio-title a, 
+	.pbmit-column-four .pbmit-portfolio-style-5 .pbmit-portfolio-title{
+		font-size: 20px;
+		line-height: 26px;
+	}
+}
+
 @media (max-width: 1024px) and (min-width: 768px){
 	.pbmit-team-single .pbmit-entry-content .text-editor-box .col-md-4{
 		width: 20%;
